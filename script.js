@@ -10,7 +10,7 @@ const slug = town.id
     .toLowerCase()
     .replaceAll("_", "-");
 
-window.open(`${baseUrl}/${slug}`, "_blank");
+window.location.href = `${baseUrl}/${slug}`;
 
     });
 
