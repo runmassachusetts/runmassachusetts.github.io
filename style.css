@@ -9,10 +9,10 @@ html, body {
 }
 
 
-.town:hover {
-    fill: #81c784;
-}
-
 .run {
     fill: #2ecc71 !important;
+}
+
+.town:hover {
+    fill: #81c784;
 }
