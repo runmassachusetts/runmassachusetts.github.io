@@ -1,4 +1,4 @@
-const baseUrl = "https://yourdomain.com/runs";
+const baseUrl = "https://runmassachusetts.com/";
 
 document.querySelectorAll("path").forEach(town => {
 
