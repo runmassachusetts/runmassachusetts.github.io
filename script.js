@@ -17,10 +17,7 @@ window.open(`${baseUrl}/${slug}`, "_blank");
 });
 
 const completed = [
-    "Lawrence",
-    "Boston",
-    "Framingham",
-    "Foxborough"
+ 
 ];
 
 completed.forEach(name => {
