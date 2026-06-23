@@ -10,7 +10,7 @@ document.querySelectorAll("path").forEach(town => {
             .toLowerCase()
             .replaceAll("_", "-");
 
-        window.top.location.href = `${baseUrl}/${slug}`;
+        window.open.location.href = `${baseUrl}/${slug}`;
 
     });
 
