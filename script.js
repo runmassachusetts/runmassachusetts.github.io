@@ -1,25 +1,28 @@
-// towns you've run in
-const runTowns = {
-  Boston: true,
-  Cambridge: true,
-  Lowell: true
-};
+const baseUrl = "https://yourdomain.com/runs";
 
-// GoDaddy base URL
-const baseUrl = "https://runmassachusetts.com/";
+document.querySelectorAll("path").forEach(town => {
 
-// loop through all SVG towns
-document.querySelectorAll(".town").forEach(town => {
+    town.classList.add("town");
 
-  const id = town.id.toLowerCase();
+    town.addEventListener("click", () => {
 
-  // color if completed
-  if (runTowns[id]) {
-    town.classList.add("run");
-  }
+        const slug = town.id
+            .toLowerCase()
+            .replaceAll("_", "-");
 
-  // click behavior
-  town.addEventListener("click", () => {
-    window.location.href = `${baseUrl}/${id}`;
-  });
+        window.location.href = `${baseUrl}/${slug}`;
+
+    });
+
+});
+
+const completed = [
+    "Lawrence",
+    "Boston",
+    "Framingham",
+    "Foxborough"
+];
+
+completed.forEach(name => {
+    document.getElementById(name)?.classList.add("run");
 });
