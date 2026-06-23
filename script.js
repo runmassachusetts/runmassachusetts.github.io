@@ -1,4 +1,4 @@
-const baseUrl = "https://runmassachusetts.com/";
+const baseUrl = "https://runmassachusetts.com";
 
 document.querySelectorAll("path").forEach(town => {
 
@@ -9,8 +9,8 @@ document.querySelectorAll("path").forEach(town => {
 const slug = town.id
     .toLowerCase()
     .replaceAll("_", "-");
-if(slug=completed,
-window.open(`${baseUrl}/${slug}`, "_blank"));
+
+window.open(`${baseUrl}/${slug}`, "_blank");
 
     });
 
