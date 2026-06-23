@@ -1,12 +1,12 @@
 // towns you've run in
 const runTowns = {
-  boston: true,
-  cambridge: true,
-  lowell: true
+  Boston: true,
+  Cambridge: true,
+  Lowell: true
 };
 
 // GoDaddy base URL
-const baseUrl = "https://runmassachusetts.com/runs";
+const baseUrl = "https://runmassachusetts.com/";
 
 // loop through all SVG towns
 document.querySelectorAll(".town").forEach(town => {
