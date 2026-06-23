@@ -1,8 +1,10 @@
 const map = L.map('map').setView([42.3, -71.8], 8);
 
 // Base map
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; OpenStreetMap contributors'
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; OpenStreetMap & CARTO',
+  subdomains: 'abcd',
+  maxZoom: 19
 }).addTo(map);
 
 // Example: towns you've run in
