@@ -8,12 +8,6 @@ html, body {
   width: 100%;
 }
 
-.town {
-    fill: #e0e0e0;
-    stroke: white;
-    stroke-width: 0.03 !important;
-   
-}
 
 .town:hover {
     fill: #81c784;
