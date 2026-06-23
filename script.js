@@ -5,12 +5,12 @@ document.querySelectorAll("path").forEach(town => {
     town.classList.add("town");
 
     town.addEventListener("click", () => {
+        
+const slug = town.id
+    .toLowerCase()
+    .replaceAll("_", "-");
 
-        const slug = town.id
-            .toLowerCase()
-            .replaceAll("_", "-");
-
-        window.open('${baseUrl}/${slug}');
+window.open(`${baseUrl}/${slug}`, "_blank");
 
     });
 
