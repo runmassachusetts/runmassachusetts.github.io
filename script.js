@@ -13,6 +13,15 @@ const runTowns = {
   "Lawrence": true
 };
 
+onEachFeature: function(feature, layer) {
+  layer.on("mouseover", function () {
+    layer.setStyle({ fillOpacity: 0.8 });
+  });
+
+  layer.on("mouseout", function () {
+    layer.setStyle({ fillOpacity: 0.6 });
+  });
+}
 // GoDaddy base URL (CHANGE THIS)
 const baseUrl = "https://runmassachusetts/";
 
