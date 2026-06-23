@@ -9,8 +9,8 @@ document.querySelectorAll("path").forEach(town => {
 const slug = town.id
     .toLowerCase()
     .replaceAll("_", "-");
-
-window.open(`${baseUrl}/${slug}`, "_blank");
+if(slug=completed,
+window.open(`${baseUrl}/${slug}`, "_blank"));
 
     });
 
