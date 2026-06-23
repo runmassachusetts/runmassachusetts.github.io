@@ -10,9 +10,8 @@ html, body {
 
 .town {
     fill: #e0e0e0;
-    stroke: #666;
-    stroke-width: .1;
-    cursor: pointer;
+    stroke: white;
+    stroke-width: 0.03 !important;
    
 }
 
