@@ -17,7 +17,7 @@ window.open(`${baseUrl}/${slug}`, "_blank");
 });
 
 const completed = [
- 
+ "Andover"
 ];
 
 completed.forEach(name => {
