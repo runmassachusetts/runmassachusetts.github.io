@@ -1,28 +1,22 @@
 const baseUrl = "https://runmassachusetts.com";
 
-const completed = [
- "Andover"
-];
-
 document.querySelectorAll("path").forEach(town => {
 
     town.classList.add("town");
 
     town.addEventListener("click", () => {
-        
-     const townName = town.id;
 
+window.open(`${baseUrl}/${slug}`, "_blank");
         const slug = townName
             .toLowerCase()
             .replaceAll("_", "-");
 
-        if (completed.includes(townName)) {
-            window.location.href = `${baseUrl}/${slug}`;
-        } else {
-            window.location.href = `${baseUrl}/future-run`;
-}
-        }
-
+    });
+      
+const completed = [
+ "Andover"
+];
     });
 
-});
+completed.forEach(name => {
+    document.getElementById(name)?.classList.add("run");
