@@ -17,9 +17,9 @@ document.querySelectorAll("path").forEach(town => {
             .replaceAll("_", "-");
 
         if (completed.includes(townName)) {
-    window.location.href = `${baseUrl}/${slug}`;
-} else {
-    alert(`I haven't run in ${townName} yet!`);
+            window.location.href = `${baseUrl}/${slug}`;
+        } else {
+            window.location.href = `${baseUrl}/future-run`;
 }
         }
 
