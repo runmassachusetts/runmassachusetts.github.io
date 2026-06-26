@@ -1,7 +1,8 @@
 const baseUrl = "https://runmassachusetts.com";
 
 const completed = [
-    "Andover"
+    "Andover",
+    "Tewksbury"
 ];
 
 document.querySelectorAll("path").forEach(town => {
