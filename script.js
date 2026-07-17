@@ -13,7 +13,9 @@ const completed = [
     "Wilmington",
     "Methuen",
     "Hubbardston",
-    "Petersham"
+    "Petersham",
+    "Oakham",
+    "New_Braintree"
 ];
 
 document.querySelectorAll("path").forEach(town => {
