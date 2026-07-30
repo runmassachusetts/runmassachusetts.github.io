@@ -17,7 +17,8 @@ const completed = [
     "Oakham",
     "New_Braintree",
     "Barre",
-    "East_Brookfield"
+    "East_Brookfield",
+    "Reading"
 ];
 
 document.querySelectorAll("path").forEach(town => {
