@@ -19,7 +19,8 @@ const completed = [
     "Barre",
     "East_Brookfield",
     "Reading",
-    "Winchendon"
+    "Winchendon",
+    "Medford"
 ];
 
 document.querySelectorAll("path").forEach(town => {
