@@ -20,7 +20,9 @@ const completed = [
     "East_Brookfield",
     "Reading",
     "Winchendon",
-    "Medford"
+    "Medford",
+    "Buckland",
+    "Shirley"
 ];
 
 document.querySelectorAll("path").forEach(town => {
