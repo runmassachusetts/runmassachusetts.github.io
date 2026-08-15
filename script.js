@@ -23,7 +23,8 @@ const completed = [
     "Medford",
     "Buckland",
     "Shirley",
-    "Lynnfield"
+    "Lynnfield",
+    "Hardwick"
 ];
 
 document.querySelectorAll("path").forEach(town => {
