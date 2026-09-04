@@ -24,7 +24,8 @@ const completed = [
     "Buckland",
     "Shirley",
     "Lynnfield",
-    "Hardwick"
+    "Hardwick",
+    "Woburn"
 ];
 
 document.querySelectorAll("path").forEach(town => {
