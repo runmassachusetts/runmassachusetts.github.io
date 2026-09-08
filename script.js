@@ -25,7 +25,12 @@ const completed = [
     "Shirley",
     "Lynnfield",
     "Hardwick",
-    "Woburn"
+    "Woburn",
+    "Salisbury",
+    "West_Newbury",
+    "Newburyport",
+    "Amesbury",
+    "Merrimac"
 ];
 
 document.querySelectorAll("path").forEach(town => {
