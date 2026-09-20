@@ -31,7 +31,9 @@ const completed = [
     "Newburyport",
     "Amesbury",
     "Merrimac",
-    "Groveland"
+    "Groveland",
+    "Salem",
+    "Marblehead"
 ];
 
 document.querySelectorAll("path").forEach(town => {
