@@ -34,7 +34,8 @@ const completed = [
     "Groveland",
     "Salem",
     "Marblehead",
-    "Wakefield"
+    "Wakefield",
+    "Middleton"
 ];
 
 document.querySelectorAll("path").forEach(town => {
